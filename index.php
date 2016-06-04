@@ -1,4 +1,4 @@
-      <?php get_header(); ?>
+<?php get_header(); ?>
 
 
     <!-- Begin Body Content Section -->
@@ -10,4 +10,4 @@
     <!-- End Body Content Section -->
 
 
-      <?php get_footer(); ?>
+<?php get_footer(); ?>

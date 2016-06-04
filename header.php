@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Julio's Blank Template</title>
+    <?php wp_head(); ?>
 
-    <link rel="stylesheet" type="text/css" href ="
-    <?php bloginfo('stylesheet_url'); ?>" />
+    <link rel="stylesheet" type="text/css" href ="<?php bloginfo('stylesheet_url'); ?>" />
 </head>
 
 <body>
