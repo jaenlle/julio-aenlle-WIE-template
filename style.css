@@ -61,3 +61,31 @@ header {
 header h3, header h5 {
   color: white;
 }
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    text-align: right;
+    margin-top: 40px;
+    background-color: #999;
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 0px 5px 40px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: pink;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
