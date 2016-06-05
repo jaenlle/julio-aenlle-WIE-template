@@ -10,3 +10,54 @@ Text Domain: julio_aenlle_WIE_template
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+
+html, body {
+  background-color: white;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #777;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.0rem;
+}
+
+h6 {
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+header {
+  background-color: #222;
+}
+
+header h3, header h5 {
+  color: white;
+}
