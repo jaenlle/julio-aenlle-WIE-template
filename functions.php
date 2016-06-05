@@ -49,7 +49,7 @@ function blank_widgets_init() {
 
 add_action('widgets_init', 'blank_widgets_init');
 
-/*-------------- Enable Widgets--------------- */
+/*-------------- Enable Menus--------------- */
 
 add_theme_support('menus');
 

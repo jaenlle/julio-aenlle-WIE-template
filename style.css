@@ -54,8 +54,9 @@ a {
   color: #777;
 }
 
-header {
+header, footer {
   background-color: #222;
+  border-bottom: 3px solid red;
 }
 
 header h3, header h5 {
