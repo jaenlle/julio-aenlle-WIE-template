@@ -11,8 +11,9 @@
 
     <div class="container">
         <header class="row">
+
           <div class="nine columns">
-              <h3><?php bloginfo ('name'); ?></h3>
+              <h3><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo ('name'); ?></a></h3>
               <h5><?php bloginfo ('description'); ?></h5>
           </div>
 
