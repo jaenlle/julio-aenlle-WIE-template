@@ -54,6 +54,24 @@ a {
   color: #777;
 }
 
+header, footer {
+  background-color: #222;
+  padding-bottom: 40px;
+}
+
+header {
+  border-bottom: 3px solid red;
+}
+
+footer {
+  border-top: 3px solid red;
+  padding-top: 40px;
+}
+
+header h3, header h5 {
+  color: white;
+}
+
 /*--- Menu --- */
 
 .blank-menu-header {
